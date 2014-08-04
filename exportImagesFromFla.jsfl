@@ -35,7 +35,7 @@ function parseDirectory(dirpath)
 
 function excute(file,dirpath)
 {
-	var folderURI = "file:///D|/梦貂蝉/images/UI界面/"+file.split(".")[0];
+	var folderURI = "file:///D|/images/"+file.split(".")[0];
 	fl.trace("Excuting ...."+dirpath+"/"+file)
 	/***/
 	fl.openDocument(dirpath+"/"+file);
